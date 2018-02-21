@@ -1,3 +1,7 @@
+//: A UIKit based Playground for presenting user interface
+//
+// Demonstrate that generic will prevent the optional method without @objc
+
 import Foundation
 
 @objc protocol Base: NSObjectProtocol {

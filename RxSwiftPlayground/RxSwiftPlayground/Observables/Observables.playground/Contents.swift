@@ -1,4 +1,7 @@
 //: Playground - noun: a place where people can play
+//
+// RxSwift Observable source demonstration
+//
 
 import RxSwiftPlayground
 import RxSwift

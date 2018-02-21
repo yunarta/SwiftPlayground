@@ -1,4 +1,5 @@
 //: Playground - noun: a place where people can play
+//
 // Demonstrate locator by generic is not feasible
 //
 // The idea is that the Generic class will be the base where the implementation is called as delegate
