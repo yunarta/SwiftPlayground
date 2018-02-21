@@ -13,6 +13,8 @@
 		99A22AFC203D214800298B5E /* Generic Creation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Generic Creation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		99A22AFE203D226300298B5E /* LiveView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LiveView.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		99A22B00203D23DF00298B5E /* Protocol Optional Method.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol Optional Method.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99BE8BAA203D6B630041914E /* Weak And Strong.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Weak And Strong.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99BE8BAB203D6B6F0041914E /* Self Retain.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Self Retain.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -23,6 +25,15 @@
 				99A22AF8203D1D3D00298B5E /* Locate By Generic - Failed.playground */,
 			);
 			path = Locate;
+			sourceTree = "<group>";
+		};
+		999C19BE203D63E7003B4068 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				99BE8BAB203D6B6F0041914E /* Self Retain.playground */,
+				99BE8BAA203D6B630041914E /* Weak And Strong.playground */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 		99A22AF9203D1D5100298B5E /* CodePoint */ = {
@@ -60,6 +71,7 @@
 		99DC90A0203D16FB00016E25 = {
 			isa = PBXGroup;
 			children = (
+				999C19BE203D63E7003B4068 /* Swift */,
 				99A22AFF203D23BB00298B5E /* ObjectiveC-DynamicDispatch */,
 				99A22AFD203D225300298B5E /* PlaygroundCapabilities */,
 				99A22AFB203D213F00298B5E /* Generic */,
@@ -76,7 +88,7 @@
 			attributes = {
 				LastUpgradeCheck = 0920;
 			};
-			buildConfigurationList = 99DC90A4203D16FB00016E25 /* Build configuration list for PBXProject "MyPlayground" */;
+			buildConfigurationList = 99DC90A4203D16FB00016E25 /* Build configuration list for PBXProject "SwiftPlayground" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,7 +119,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99DC90A4203D16FB00016E25 /* Build configuration list for PBXProject "MyPlayground" */ = {
+		99DC90A4203D16FB00016E25 /* Build configuration list for PBXProject "SwiftPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99DC90A5203D16FB00016E25 /* Debug */,
