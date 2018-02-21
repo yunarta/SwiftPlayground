@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		99A22AF7203D1D3D00298B5E /* Locate By Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Locate By Class.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99A22AF8203D1D3D00298B5E /* Locate By Generic - Failed.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Locate By Generic - Failed.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99A22AFA203D1D5100298B5E /* Code Point.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Code Point.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99A22AFC203D214800298B5E /* Generic Creation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Generic Creation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99A22AFE203D226300298B5E /* LiveView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LiveView.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99A22B00203D23DF00298B5E /* Protocol Optional Method.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol Optional Method.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		995C1B4F203D1D150033F862 /* Locate */ = {
+			isa = PBXGroup;
+			children = (
+				99A22AF7203D1D3D00298B5E /* Locate By Class.playground */,
+				99A22AF8203D1D3D00298B5E /* Locate By Generic - Failed.playground */,
+			);
+			path = Locate;
+			sourceTree = "<group>";
+		};
+		99A22AF9203D1D5100298B5E /* CodePoint */ = {
+			isa = PBXGroup;
+			children = (
+				99A22AFA203D1D5100298B5E /* Code Point.playground */,
+			);
+			path = CodePoint;
+			sourceTree = "<group>";
+		};
+		99A22AFB203D213F00298B5E /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				99A22AFC203D214800298B5E /* Generic Creation.playground */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		99A22AFD203D225300298B5E /* PlaygroundCapabilities */ = {
+			isa = PBXGroup;
+			children = (
+				99A22AFE203D226300298B5E /* LiveView.playground */,
+			);
+			path = PlaygroundCapabilities;
+			sourceTree = "<group>";
+		};
+		99A22AFF203D23BB00298B5E /* ObjectiveC-DynamicDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				99A22B00203D23DF00298B5E /* Protocol Optional Method.playground */,
+			);
+			path = "ObjectiveC-DynamicDispatch";
+			sourceTree = "<group>";
+		};
+		99DC90A0203D16FB00016E25 = {
+			isa = PBXGroup;
+			children = (
+				99A22AFF203D23BB00298B5E /* ObjectiveC-DynamicDispatch */,
+				99A22AFD203D225300298B5E /* PlaygroundCapabilities */,
+				99A22AFB203D213F00298B5E /* Generic */,
+				99A22AF9203D1D5100298B5E /* CodePoint */,
+				995C1B4F203D1D150033F862 /* Locate */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		99DC90A1203D16FB00016E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 99DC90A4203D16FB00016E25 /* Build configuration list for PBXProject "MyPlayground" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99DC90A0203D16FB00016E25;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		99DC90A5203D16FB00016E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		99DC90A6203D16FB00016E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99DC90A4203D16FB00016E25 /* Build configuration list for PBXProject "MyPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DC90A5203D16FB00016E25 /* Debug */,
+				99DC90A6203D16FB00016E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99DC90A1203D16FB00016E25 /* Project object */;
+}
