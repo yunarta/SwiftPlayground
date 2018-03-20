@@ -54,6 +54,50 @@
             </objects>
             <point key="canvasLocation" x="1463" y="107"/>
         </scene>
+        <!--Awake FromNIB Demo-->
+        <scene sceneID="lNq-ka-vsh">
+            <objects>
+                <viewController id="A6i-JV-1xy" customClass="AwakeFromNIBDemo" customModule="UIPlayground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qgw-WC-LVc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPh-Oa-fD7">
+                                <rect key="frame" x="16" y="77" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfw-DG-IRg">
+                                <rect key="frame" x="16" y="106" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rfw-DG-IRg" firstAttribute="top" secondItem="LPh-Oa-fD7" secondAttribute="bottom" constant="8" id="3JT-i5-94X"/>
+                            <constraint firstItem="LPh-Oa-fD7" firstAttribute="leading" secondItem="KUz-dN-7Vl" secondAttribute="leading" constant="16" id="UJu-YA-Mcw"/>
+                            <constraint firstItem="LPh-Oa-fD7" firstAttribute="top" secondItem="KUz-dN-7Vl" secondAttribute="top" constant="13" id="nDO-wc-WsO"/>
+                            <constraint firstItem="rfw-DG-IRg" firstAttribute="leading" secondItem="KUz-dN-7Vl" secondAttribute="leading" constant="16" id="ylM-dn-Ofb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KUz-dN-7Vl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ed0-Qa-CMv"/>
+                    <connections>
+                        <outlet property="label" destination="LPh-Oa-fD7" id="Cyg-eE-lai"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rq9-v3-oCm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="P75-EI-OEx" customClass="AwakeFromNIBObject" customModule="UIPlayground" customModuleProvider="target">
+                    <connections>
+                        <outlet property="label" destination="rfw-DG-IRg" id="VOs-xp-Daj"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="689" y="808"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="fUD-yS-K1a">
             <objects>
@@ -71,6 +115,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igP-Ee-ODP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-146" y="107"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tZv-u7-R37">
+            <objects>
+                <navigationController storyboardIdentifier="AwakeFromNIB" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xcq-sQ-VDE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kxg-eV-p0B">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="A6i-JV-1xy" kind="relationship" relationship="rootViewController" id="1F0-lk-f30"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="syW-qZ-coB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146" y="808"/>
         </scene>
     </scenes>
 </document>

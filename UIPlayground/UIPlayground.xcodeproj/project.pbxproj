@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99129354204CE96F0001F0C9 /* AwakeFromNIBDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99129353204CE96F0001F0C9 /* AwakeFromNIBDemo.swift */; };
 		999C19B3203D5B81003B4068 /* UIPlayground.h in Headers */ = {isa = PBXBuildFile; fileRef = 999C19B1203D5B81003B4068 /* UIPlayground.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		999C19BA203D5BC2003B4068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 999C19B9203D5BC2003B4068 /* Main.storyboard */; };
 		999C19BD203D5D59003B4068 /* Bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999C19BC203D5D59003B4068 /* Bootstrap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99129353204CE96F0001F0C9 /* AwakeFromNIBDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwakeFromNIBDemo.swift; sourceTree = "<group>"; };
+		99404EAF206124670071EB97 /* UIPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		999C19AE203D5B81003B4068 /* UIPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		999C19B1203D5B81003B4068 /* UIPlayground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIPlayground.h; sourceTree = "<group>"; };
 		999C19B2203D5B81003B4068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		999C19B9203D5BC2003B4068 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		999C19BB203D5CFD003B4068 /* MainViewControllerPlayGround.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MainViewControllerPlayGround.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		999C19BC203D5D59003B4068 /* Bootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootstrap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +37,7 @@
 		999C19A4203D5B81003B4068 = {
 			isa = PBXGroup;
 			children = (
+				99404EAF206124670071EB97 /* UIPlayground.playground */,
 				999C19B0203D5B81003B4068 /* UIPlayground */,
 				999C19AF203D5B81003B4068 /* Products */,
 			);
@@ -51,11 +54,11 @@
 		999C19B0203D5B81003B4068 /* UIPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				999C19BB203D5CFD003B4068 /* MainViewControllerPlayGround.playground */,
 				999C19B1203D5B81003B4068 /* UIPlayground.h */,
 				999C19B2203D5B81003B4068 /* Info.plist */,
 				999C19B9203D5BC2003B4068 /* Main.storyboard */,
 				999C19BC203D5D59003B4068 /* Bootstrap.swift */,
+				99129353204CE96F0001F0C9 /* AwakeFromNIBDemo.swift */,
 			);
 			path = UIPlayground;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99129354204CE96F0001F0C9 /* AwakeFromNIBDemo.swift in Sources */,
 				999C19BD203D5D59003B4068 /* Bootstrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

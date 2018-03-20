@@ -7,76 +7,28 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		99A22AF7203D1D3D00298B5E /* Locate By Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Locate By Class.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		99A22AF8203D1D3D00298B5E /* Locate By Generic - Failed.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Locate By Generic - Failed.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		99A22AFA203D1D5100298B5E /* Code Point.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Code Point.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		99A22AFC203D214800298B5E /* Generic Creation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Generic Creation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		99A22AFE203D226300298B5E /* LiveView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LiveView.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		99A22B00203D23DF00298B5E /* Protocol Optional Method.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol Optional Method.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		99BE8BAA203D6B630041914E /* Weak And Strong.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Weak And Strong.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		99BE8BAB203D6B6F0041914E /* Self Retain.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Self Retain.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		995F322A206121D90069E440 /* Injection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Injection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		995F322B206122450069E440 /* Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extensions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		995F322C206122780069E440 /* Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		995F322D206122E60069E440 /* ObjectiveC-DynamicDispatch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ObjectiveC-DynamicDispatch.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		995F322E2061236F0069E440 /* PlaygroundCapabilities.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlaygroundCapabilities.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		995F322F2061239E0069E440 /* Generic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		995F3230206123BD0069E440 /* CodePoint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CodePoint.playground; sourceTree = "<group>"; };
+		995F3231206123D10069E440 /* Locator Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Locator Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		995C1B4F203D1D150033F862 /* Locate */ = {
-			isa = PBXGroup;
-			children = (
-				99A22AF7203D1D3D00298B5E /* Locate By Class.playground */,
-				99A22AF8203D1D3D00298B5E /* Locate By Generic - Failed.playground */,
-			);
-			path = Locate;
-			sourceTree = "<group>";
-		};
-		999C19BE203D63E7003B4068 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				99BE8BAB203D6B6F0041914E /* Self Retain.playground */,
-				99BE8BAA203D6B630041914E /* Weak And Strong.playground */,
-			);
-			path = Swift;
-			sourceTree = "<group>";
-		};
-		99A22AF9203D1D5100298B5E /* CodePoint */ = {
-			isa = PBXGroup;
-			children = (
-				99A22AFA203D1D5100298B5E /* Code Point.playground */,
-			);
-			path = CodePoint;
-			sourceTree = "<group>";
-		};
-		99A22AFB203D213F00298B5E /* Generic */ = {
-			isa = PBXGroup;
-			children = (
-				99A22AFC203D214800298B5E /* Generic Creation.playground */,
-			);
-			path = Generic;
-			sourceTree = "<group>";
-		};
-		99A22AFD203D225300298B5E /* PlaygroundCapabilities */ = {
-			isa = PBXGroup;
-			children = (
-				99A22AFE203D226300298B5E /* LiveView.playground */,
-			);
-			path = PlaygroundCapabilities;
-			sourceTree = "<group>";
-		};
-		99A22AFF203D23BB00298B5E /* ObjectiveC-DynamicDispatch */ = {
-			isa = PBXGroup;
-			children = (
-				99A22B00203D23DF00298B5E /* Protocol Optional Method.playground */,
-			);
-			path = "ObjectiveC-DynamicDispatch";
-			sourceTree = "<group>";
-		};
 		99DC90A0203D16FB00016E25 = {
 			isa = PBXGroup;
 			children = (
-				999C19BE203D63E7003B4068 /* Swift */,
-				99A22AFF203D23BB00298B5E /* ObjectiveC-DynamicDispatch */,
-				99A22AFD203D225300298B5E /* PlaygroundCapabilities */,
-				99A22AFB203D213F00298B5E /* Generic */,
-				99A22AF9203D1D5100298B5E /* CodePoint */,
-				995C1B4F203D1D150033F862 /* Locate */,
+				995F322A206121D90069E440 /* Injection.playground */,
+				995F322B206122450069E440 /* Extensions.playground */,
+				995F322C206122780069E440 /* Swift.playground */,
+				995F322D206122E60069E440 /* ObjectiveC-DynamicDispatch.playground */,
+				995F322E2061236F0069E440 /* PlaygroundCapabilities.playground */,
+				995F322F2061239E0069E440 /* Generic.playground */,
+				995F3230206123BD0069E440 /* CodePoint.playground */,
+				995F3231206123D10069E440 /* Locator Pattern.playground */,
 			);
 			sourceTree = "<group>";
 		};

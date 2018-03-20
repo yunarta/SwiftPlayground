@@ -15,11 +15,11 @@
 /* Begin PBXFileReference section */
 		5CD3358DA53CD9BBB4CC82F8 /* Pods_RxSwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DF9451ECDF86BB553E677C /* Pods-RxSwiftPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPlayground.release.xcconfig"; path = "../Pods/Target Support Files/Pods-RxSwiftPlayground/Pods-RxSwiftPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		99404EAE2061243E0071EB97 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; };
 		99A22B0B203D262D00298B5E /* RxSwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A22B0E203D262D00298B5E /* RxSwiftPlayground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSwiftPlayground.h; sourceTree = "<group>"; };
 		99A22B0F203D262D00298B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99A22B16203D26CD00298B5E /* Bootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootstrap.swift; sourceTree = "<group>"; };
-		99A22B1A203D272600298B5E /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DC7F6A5CD42C8BE8C5181A29 /* Pods-RxSwiftPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPlayground.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-RxSwiftPlayground/Pods-RxSwiftPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +47,7 @@
 		99A22B01203D262D00298B5E = {
 			isa = PBXGroup;
 			children = (
+				99404EAE2061243E0071EB97 /* Observables.playground */,
 				99A22B0D203D262D00298B5E /* RxSwiftPlayground */,
 				99A22B0C203D262D00298B5E /* Products */,
 				11C8FAF6BA32B2893CB178E1 /* Pods */,
@@ -65,20 +66,11 @@
 		99A22B0D203D262D00298B5E /* RxSwiftPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				99A22B18203D26F700298B5E /* Observables */,
 				99A22B0E203D262D00298B5E /* RxSwiftPlayground.h */,
 				99A22B0F203D262D00298B5E /* Info.plist */,
 				99A22B16203D26CD00298B5E /* Bootstrap.swift */,
 			);
 			path = RxSwiftPlayground;
-			sourceTree = "<group>";
-		};
-		99A22B18203D26F700298B5E /* Observables */ = {
-			isa = PBXGroup;
-			children = (
-				99A22B1A203D272600298B5E /* Observables.playground */,
-			);
-			path = Observables;
 			sourceTree = "<group>";
 		};
 		CC13BD2FA0FF8F65F820FC08 /* Frameworks */ = {
