@@ -13,7 +13,7 @@
 		995F322D206122E60069E440 /* ObjectiveC-DynamicDispatch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ObjectiveC-DynamicDispatch.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		995F322E2061236F0069E440 /* PlaygroundCapabilities.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlaygroundCapabilities.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		995F322F2061239E0069E440 /* Generic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		995F3230206123BD0069E440 /* CodePoint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CodePoint.playground; sourceTree = "<group>"; };
+		995F3230206123BD0069E440 /* CodePoint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CodePoint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		995F3231206123D10069E440 /* Locator Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Locator Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -21,14 +21,14 @@
 		99DC90A0203D16FB00016E25 = {
 			isa = PBXGroup;
 			children = (
-				995F322A206121D90069E440 /* Injection.playground */,
-				995F322B206122450069E440 /* Extensions.playground */,
-				995F322C206122780069E440 /* Swift.playground */,
-				995F322D206122E60069E440 /* ObjectiveC-DynamicDispatch.playground */,
 				995F322E2061236F0069E440 /* PlaygroundCapabilities.playground */,
+				995F322C206122780069E440 /* Swift.playground */,
+				995F322B206122450069E440 /* Extensions.playground */,
 				995F322F2061239E0069E440 /* Generic.playground */,
-				995F3230206123BD0069E440 /* CodePoint.playground */,
+				995F322D206122E60069E440 /* ObjectiveC-DynamicDispatch.playground */,
 				995F3231206123D10069E440 /* Locator Pattern.playground */,
+				995F3230206123BD0069E440 /* CodePoint.playground */,
+				995F322A206121D90069E440 /* Injection.playground */,
 			);
 			sourceTree = "<group>";
 		};

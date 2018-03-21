@@ -1,11 +1,14 @@
-//: Playground - noun: a place where people can play
-//
-// Demonstrate self retaining
+/*:
+ ## Self Retain
+ 
+ Demonstrate circular reference in Swift causing instance to be retained
+ */
 
 import UIKit
 
-typealias Closure = () -> Void
+//: > Template class and typealias for checking retention
 
+typealias Closure = () -> Void
 class Retainer {
     
     var closure: Closure?
